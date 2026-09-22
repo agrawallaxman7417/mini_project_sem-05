@@ -2,7 +2,11 @@
 <html lang="en">    
 <head>
         <meta charset="UTF-8">
-        <link  rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <title>Event Yatra - Home Page</title>
 </head>
     <body>
@@ -17,6 +21,44 @@
             </nav>
             <button id="profile-button">👤</button>
         </header>
+        <main class="main-content">
+            <section class="hero-section" aria-labelledby="hero-title">
+                <div class="hero-glow hero-glow-left" aria-hidden="true"></div>
+                <div class="hero-glow hero-glow-right" aria-hidden="true"></div>
+
+                <div class="hero-content">
+                    <div class="hero-eyebrow">
+                        <span class="eyebrow-dot" aria-hidden="true"></span>
+                        India's Premier Ticketing Gateway
+                    </div>
+
+                    <h1 id="hero-title">India's Events.<br>
+                        <span>Your Next Experience.</span>
+                    </h1>
+
+                    <p id="hero-description">
+                        From live concerts and college fests to tech conferences,
+                        sports and cultural celebrations — discover what's happening
+                        across India.
+                    </p>
+                </div>
+
+                <div class="image-container">
+                    <div class="hero-image-frame">
+                        <img class="hero-image" src="resources/hero-section-concert.jpg" alt="Crowd enjoying a live concert">
+                        <div class="image-gradient" aria-hidden="true"></div>
+                        <div class="event-stat-card">
+                            <div class="ticket-icon" aria-hidden="true">▣</div>
+                            <div class="event-stat-copy">
+                                <strong>1,850+ Verified Events</strong>
+                                <span>Live booking across 15+ cities</span>
+                            </div>
+                            <span class="live-indicator" aria-label="Live"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
     </body>
 </html>
