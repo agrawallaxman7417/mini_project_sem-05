@@ -432,16 +432,6 @@ body {
     object-fit: cover;
 }
 
-.comedy-event-image img {
-    object-position: center 35%;
-    filter: sepia(0.2) hue-rotate(35deg);
-}
-
-.culture-event-image img {
-    object-position: center 65%;
-    filter: sepia(0.35) hue-rotate(290deg);
-}
-
 .event-category {
     position: absolute;
     top: 16px;
@@ -576,14 +566,6 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.city-goa img {
-    filter: sepia(0.25) hue-rotate(45deg);
-}
-
-.city-jaipur img {
-    filter: sepia(0.35) hue-rotate(290deg);
 }
 
 .city-overlay {
